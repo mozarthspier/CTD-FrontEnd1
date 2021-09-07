@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley&family=Urbanist&display=swap');
+
+body {
+    background-image: url("../images/campobom2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    padding: 15px 0px;
+    text-align: center;
+    background-color: white;
+    border: grey double 5px;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 15%;
+}
+
+#titulo-header {
+    font-family: 'Urbanist', sans-serif;
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+#bandeira-esquerda {
+    height: 72px;
+    width: 114px;
+    position: relative;
+    right: 20%;
+}
+
+#bandeira-direita {
+    height: 72px;
+    width: 114px;
+    position: relative;
+    left: 20%;
+}
+
+#descricao {
+    padding: 5px;
+    text-align: center;
+    background-color: #288AED;
+    border-style: none solid none solid;
+    border-color: blue;
+    border-radius: 10px;
+    position: relative;
+    margin: 2% 5%;
+}
+
+#descricao p {
+    font-family: 'Besley', serif;
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+#videos {
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 12px;
+
+}
+
+#curiosidades {
+    padding: 5px;
+    text-align: center;
+    background-color: #288AED;
+    border-style: none solid none solid;
+    border-color: blue;
+    border-radius: 10px;
+    position: relative;
+    margin: 2% 20%;
+}
+
+#curiosidades h2 {
+    font-family: 'Besley', serif;
+    color: white;
+}
+
+#curiosidades li {
+    font-family: 'Besley', serif;
+    font-size: smaller;
+    color: white;
+    margin: 0 5px;
+}
+
+i {
+    margin: 10px;
+}
+
+#youtube-icon {
+    color: red;
+    font-size:36px;
+}
+
+#instagram-icon {
+    font-size:36px;
+}
