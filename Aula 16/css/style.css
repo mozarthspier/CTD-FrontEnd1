@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Srisakdi&display=swap');
+
+.checkbox-option {
+    display: block;
+    margin: 5px 0;
+}
+
+p:hover {
+    background-color: red;
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-size: larger;
+}
+
+li:nth-child(1) {
+    font-weight: bold;
+}
+
+a:focus {
+    color: green;
+}
+
+fieldset {
+    background-color: beige;
+    margin-top: 20px;
+}
+
+label {
+    font-family: 'Srisakdi', serif;
+    color: blue;
+}
+
+#label-nome {
+    font-weight: bold;
+}
+
+div label:hover {
+    font-weight: bold;
+}
+
+div label:focus {
+    color: green;
+}
+
+input:checked {
+    margin-left: 25px;
+}
+
+#button-div {
+    text-align: center;
+}
+
+button {
+    margin-top: 10px;
+}
+
+button:enabled {
+    color: blue;
+    font-weight: bold;
+    border: blue solid 2px;
+}
+
+button:disabled {
+    color: rgba(255, 99, 71, 0.5);
+}
+
+/* Pseudo-seletores novos */
+
+div:empty {
+    background-color: violet;
+    height: 5px;
+}
+
+::placeholder {
+    font-family: 'Srisakdi', serif;
+    color: red;
+    font-weight: bold;
+}
+
+::selection {
+    background-color: cyan;
+  }
